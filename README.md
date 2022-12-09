@@ -6,11 +6,19 @@ Example backend CRUD
 Node.js, Express, ORM Sequelize and PostgreSQL
 
 ## Prerequsites
-PostgreSQL DB
+- PostgreSQL DB
+- Create .env file with environment variables:
+```
+    DBNAME
+    DBUSER
+    DBPASSWORD
+    DBHOST
+    DBDIALECT
+```
 
 ## Usage
 ```
-git clone https://github.com/fosware/node_sequelize_restapi
+git clone https://github.com/fosware/node_sequelize_restapi.git
 
 cd node_sequelize_restapi
 
@@ -18,6 +26,3 @@ npm install
 
 npm run dev
 ```
-## Demo
-
-[Supbase](https://)
